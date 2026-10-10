@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+<title id="title">FIBIN community food sharing</title>
+<desc id="desc">A modern illustration of people sharing a meal through the FIBIN food donation network.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f0ff"/><stop offset="1" stop-color="#eadcff"/></linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f8f3ff"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d28d9"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d946ef"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#5b21b6" flood-opacity=".18"/></filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect width="900" height="760" rx="48" fill="url(#bg)"/>
+<circle cx="760" cy="115" r="150" fill="#d8b4fe" opacity=".28" filter="url(#soft)"/>
+<circle cx="125" cy="630" r="160" fill="#f0abfc" opacity=".22" filter="url(#soft)"/>
+<path d="M80 520C190 410 270 500 365 415C455 335 545 420 640 330C710 264 790 300 850 245" fill="none" stroke="#d8c5fa" stroke-width="3" stroke-dasharray="8 12"/>
+<g filter="url(#shadow)">
+  <rect x="145" y="95" width="610" height="555" rx="38" fill="url(#card)" stroke="#fff" stroke-width="7"/>
+</g>
+<!-- floating trust chips -->
+<g filter="url(#shadow)">
+ <rect x="80" y="180" width="185" height="58" rx="18" fill="#fff" stroke="#e8ddfa"/>
+ <circle cx="112" cy="209" r="17" fill="#ede5ff"/><path d="M104 209l6 6 11-14" fill="none" stroke="#6d28d9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+ <text x="140" y="205" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#2a1a3d">Verified donor</text><text x="140" y="222" font-family="Arial,sans-serif" font-size="10" fill="#82758f">Ready to share</text>
+ <rect x="665" y="520" width="165" height="66" rx="18" fill="#251044"/>
+ <text x="686" y="546" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1" fill="#d8c9ff">COMMUNITY IMPACT</text>
+ <text x="686" y="570" font-family="Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">1 meal = 1 smile</text>
+</g>
+<!-- central food box -->
+<g transform="translate(335 265)">
+ <ellipse cx="115" cy="235" rx="150" ry="30" fill="#d7c6f4" opacity=".55"/>
+ <path d="M8 88h214v126c0 17-14 31-31 31H39c-17 0-31-14-31-31z" fill="url(#purple)"/>
+ <path d="M8 88h214l-34-54H43z" fill="#7c3aed"/>
+ <path d="M42 72h145" stroke="#c4a7f7" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+ <circle cx="72" cy="138" r="24" fill="#fff" opacity=".95"/><circle cx="151" cy="138" r="24" fill="#fff" opacity=".95"/>
+ <path d="M61 138h22M140 138h22" stroke="#6d28d9" stroke-width="5" stroke-linecap="round"/>
+ <path d="M105 158c8 10 17 10 25 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+ <path d="M105 105c4-9 10-14 18-14 7 0 13 5 17 14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+ <text x="54" y="195" font-family="Arial,sans-serif" font-size="16" font-weight="800" fill="#fff">FIBIN</text>
+</g>
+<!-- people -->
+<g>
+ <!-- left person -->
+ <circle cx="265" cy="310" r="48" fill="#f2b8a2"/>
+ <path d="M220 298c6-45 79-55 93 5-17-15-42-18-65-4z" fill="#3a244a"/>
+ <path d="M218 418c0-75 36-105 70-105s70 30 70 105" fill="#8b5cf6"/>
+ <path d="M238 398c-15 9-27 28-33 51" stroke="#f2b8a2" stroke-width="24" stroke-linecap="round"/>
+ <path d="M324 383c24-6 46 6 63 22" stroke="#f2b8a2" stroke-width="24" stroke-linecap="round"/>
+ <!-- right person -->
+ <circle cx="630" cy="310" r="48" fill="#c98f72"/>
+ <path d="M585 304c-2-45 71-62 93-6-22-11-51-10-73 9z" fill="#2b2036"/>
+ <path d="M570 418c3-73 35-105 70-105s68 32 70 105" fill="#d946ef"/>
+ <path d="M595 383c-22 3-44 15-62 32" stroke="#c98f72" stroke-width="24" stroke-linecap="round"/>
+ <path d="M683 390c22 11 37 26 49 49" stroke="#c98f72" stroke-width="24" stroke-linecap="round"/>
+ <!-- hands around box -->
+ <path d="M326 406c42-26 55-26 74-10" stroke="#f2b8a2" stroke-width="20" stroke-linecap="round"/>
+ <path d="M573 405c-41-25-56-24-74-9" stroke="#c98f72" stroke-width="20" stroke-linecap="round"/>
+</g>
+<!-- heart -->
+<g transform="translate(410 165)"><path d="M42 74C-10 38 8 0 37 0c18 0 27 14 27 14S73 0 91 0c29 0 47 38-5 74L64 91z" fill="url(#pink)"/><circle cx="62" cy="35" r="6" fill="#fff" opacity=".75"/></g>
+<!-- location pin -->
+<g transform="translate(700 130)"><path d="M44 92S5 56 5 31C5 14 22 0 44 0s39 14 39 31c0 25-39 61-39 61z" fill="#6d28d9"/><circle cx="44" cy="31" r="13" fill="#fff"/><text x="44" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#6d28d9">NEARBY</text></g>
+<!-- decorative sparkles -->
+<g fill="#a855f7"><circle cx="175" cy="125" r="5"/><circle cx="785" cy="385" r="5"/><circle cx="105" cy="420" r="4"/></g>
+<g stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"><path d="M770 220v22M759 231h22"/><path d="M155 540v20M145 550h20"/></g>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fef9c3"/><stop offset="1" stop-color="#a855f7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity=".18"/></filter></defs>
+<rect width="800" height="480" rx="38" fill="url(#g)"/><circle cx="670" cy="90" r="115" fill="#fff" opacity=".12"/><circle cx="100" cy="410" r="150" fill="#fff" opacity=".10"/>
+<g filter="url(#s)"><rect x="190" y="115" width="420" height="245" rx="42" fill="#fff" opacity=".95"/><ellipse cx="400" cy="245" rx="150" ry="88" fill="#f8fafc"/><ellipse cx="400" cy="235" rx="112" ry="63" fill="#fff"/><text x="400" y="278" text-anchor="middle" font-size="92" font-family="Segoe UI Emoji, Apple Color Emoji, sans-serif">🍽️</text></g>
+<text x="400" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="800" fill="#fff">Idli Sambar</text></svg>
